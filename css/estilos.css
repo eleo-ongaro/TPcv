@@ -4,8 +4,9 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 	padding: 10px 10px 10px 10px;
-    background-image: url("https://i.pinimg.com/originals/a9/7c/1d/a97c1db28eae8944c50aa2f3f587e8ed.jpg");
-    background-size: 150rem;
+    background-image: url("https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=740&t=st=1672178278~exp=1672178878~hmac=debcb9a5c606d08392491fbe56c5adfc0ad1ad6f66584b38293c6a4ece5ba9ba");
+    background-size: 2000px;
+    background-position: center;
 }
 
 img {
@@ -17,7 +18,7 @@ img {
 }
 
 h1 {
-    font-family: "candara", sans-serif;
+    font-family: 'Crimson Text', serif;
     padding: 10px;
     margin: 20px;
     margin-top: 20px;
@@ -28,6 +29,13 @@ h1 {
     font-weight: bold;
     color: black;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Passions Conflict', cursive;
+    color: black;
+    text-align: center;
+    font-size: 50px;
 }
 
 P{
@@ -42,8 +50,9 @@ P{
 li {
     color: #0d0d0d; 
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: underline;
+    font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+    font-size: large;
 }
 section {
     width: 300px;
@@ -63,13 +72,14 @@ section {
 
 label {
     color: black;
-    font-family: "calibri", sans-serif;
+    font-family: 'Crimson Text', serif;
     font-weight: bold;
     text-align: light;
 }
 #formulario {
     color: black;
-    font-family: "calibri", sans-serif;
+    background-color: floralwhite;
+    font-family: 'Crimson Text', serif;
     font-weight: bold;
     text-align: center;
     padding: 5px;
@@ -91,14 +101,14 @@ button{
 }
 footer {
     color: darkslategrey;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 80px;
     text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 20px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 30px 20px 15px 10px;
+    padding: 20px 20px 15px 10px;
   }
