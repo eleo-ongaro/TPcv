@@ -50,20 +50,16 @@
 
 
 <p id="formulario">Si quiere ser contactade para proponer una oferta laboral, por favor complete el siguiente formulario, y me estaré comunicando a la brevedad.</p>
-<form>
-    <label>Nombre
-         <input type="nombre" id="nombre" required>
-    </label>
-    <label>Apellido
-         <input type="apellido" id="apellido" required>
-    </label>
-    <label>Teléfono
-        <input type="telefono" id="telefono" required>
-   </label>
-   <label>Mail
-    <input type="mail" id="mail" required>
-</label>
-    <button type="button" id="boton">Enviar</button>
+<form action="" method="post">
+    <label>Nombre</label>
+    <input type="text" name="nombre" placeholder="Ingrese su nombre" />
+    <label>Apellido</label>
+    <input type="text" name="apellido" placeholder="Ingrese su apellido" />
+    <label>E-mail</label>
+    <input type="text" name="email" placeholder="Ingrese su e-mail" />
+    <label>Teléfono</label>
+    <input type="tel" name="telefono"/>
+    <input type="submit" value="Enviar">
 </form>
 
 <footer>Creado por Eleonora Martina Omentari Ongaro</footer>
