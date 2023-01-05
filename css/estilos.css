@@ -13,12 +13,15 @@ body {
 
 img {
     margin: auto;
+    margin-bottom: 40px;
     display: block;
     border-style: solid;
 	border-color: black;
-	border-width: 3px;
-    margin-bottom: 40px;
+	border-width: 1px;
     border-radius: 50%;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  10px 10px 20px #5a5a5a,
+             -10px -10px 20px #ffffff;
 }
 
 .text {

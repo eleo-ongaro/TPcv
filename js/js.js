@@ -17,3 +17,6 @@ window.addEventListener('beforeprint', (event) => {
     //}
   
 
+    // evento oneclick para q cuente los envios de form?
+    // onsubmit?
+
