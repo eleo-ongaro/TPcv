@@ -10,7 +10,6 @@
     margin: auto;
     margin-bottom: 40px;
     position: relative;
-    z-index: 99;
     display: block;
     border-style: solid;
 	border-color: #1D6095;
@@ -26,12 +25,10 @@
     margin: 0 auto;
     display: center;
     width: 75%;
-    z-index: 99;
 }
 
 .text {
     display: inline-block;
-
 }
 
 h1 {
@@ -45,8 +42,6 @@ h1 {
     color: black;
     text-align: center;
     position: relative;
-    z-index: 99;
-    
 }
 
 @keyframes typing {
@@ -65,7 +60,6 @@ h3 {
     font-family: 'Crimson Text', serif;
     margin-left: 40px;
     position: relative;
-    z-index: 99;
 }
 
 #portfolio__titulo {
@@ -124,7 +118,6 @@ label {
     padding-left: 60px;
     padding-top: 10px;
     position: relative;
-    z-index: 99;
 }
 
 #formulario:hover {
@@ -140,7 +133,6 @@ label {
     align-items: center;
     display: center;
     padding: 20px 10px 10px 10px;
-    
 }
 
 button {
@@ -160,22 +152,20 @@ button {
     transition: all 0.2s;
     margin-left: 10px;
     position: relative;
-    z-index: 99;
-    
-      }
+ }
       
-      button span {
-        display: block;
-        margin-left: 0.3em;
-        transition: all 0.3s ease-in-out;
-        align-content: center;
-      }
+button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+    align-content: center;
+}
       
-      button svg {
-        display: block;
-        transform-origin: center center;
-        transition: transform 0.3s ease-in-out;
-      }
+button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
       
       button:hover .svg-wrapper {
         animation: fly-1 0.6s ease-in-out infinite alternate;
@@ -216,8 +206,7 @@ footer {
     margin-right: 10px;
     padding: 20px 20px 15px 10px;
     position: relative;
-    z-index: 99;
-  }
+}
 
  
   .card {
@@ -237,7 +226,6 @@ footer {
     transition: all 0.5s;
     display: center;
     position: relative;
-    z-index: 99;
     align-items: justify;
     user-select: none;
     text-align: justify;
