@@ -99,15 +99,16 @@ label {
     color: black;
     font-family: 'Crimson Text', serif;
     font-weight: bold;
+    font-size: 20px;
     text-align: light;
 }
 #formulario {
-    color: black;
+    color: white;
     font-family: 'Crimson Text', serif;
-    font-weight: bold;
+    font-size: 20px;
     box-sizing: border-box;
     width: 100;
-    background: #B8CEDF;
+    background: #1D6095;
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
