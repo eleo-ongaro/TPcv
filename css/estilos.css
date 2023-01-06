@@ -4,16 +4,23 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 	padding: 10px 10px 10px 10px;
-    background-color: white;
+    /*background-color: white;
     background-image: url("https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=740&t=st=1672178278~exp=1672178878~hmac=debcb9a5c606d08392491fbe56c5adfc0ad1ad6f66584b38293c6a4ece5ba9ba");
     background-size: 200%;
-    background-position: center;
+    background-position: center;*/
 }
 
-
-img {
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#fotoCarnet {
     margin: auto;
     margin-bottom: 40px;
+    position: relative;
+    z-index: 99;
     display: block;
     border-style: solid;
 	border-color: black;
@@ -23,6 +30,7 @@ background: linear-gradient(145deg, #cacaca, #f0f0f0);
 box-shadow:  10px 10px 20px #5a5a5a,
              -10px -10px 20px #ffffff;
 }
+
 
 .text {
     display: inline-block;
@@ -38,6 +46,9 @@ h1 {
     font-weight: bold;
     color: black;
     text-align: center;
+    position: relative;
+    z-index: 99;
+    
 }
 
 @keyframes typing {
@@ -62,11 +73,20 @@ h3 {
     font-weight: bolder;
     font-family: 'Crimson Text', serif;
     margin-left: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+#portfolio__titulo {
+text-align: center;
+margin-top: 40px;
+margin-bottom: 30px;
+font-size: 40px;
 }
 
 P{
     color: #333333;
-    width: 1000px;
+    width: 100;
     font-family: "calibri", sans-serif;
     font-weight: normal;
     text-align: justify;
@@ -116,6 +136,8 @@ label {
     margin-left: 40px;
     padding-left: 60px;
     padding-top: 10px;
+    position: relative;
+    z-index: 99;
 }
 
 #formulario:hover {
@@ -150,6 +172,8 @@ button {
     overflow: hidden;
     transition: all 0.2s;
     margin-left: 10px;
+    position: relative;
+    z-index: 99;
     
       }
       
@@ -204,6 +228,8 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px 20px 15px 10px;
+    position: relative;
+    z-index: 99;
   }
 
  
@@ -223,6 +249,8 @@ footer {
     cursor: pointer;
     transition: all 0.5s;
     display: center;
+    position: relative;
+    z-index: 99;
     align-items: justify;
     user-select: none;
     text-align: justify;
@@ -237,3 +265,5 @@ footer {
   .card:active {
     transform: scale(0.95) rotateZ(1.7deg);
   }
+
+  

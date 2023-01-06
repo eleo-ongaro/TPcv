@@ -18,11 +18,12 @@
 </head>
 
 <body>
- 
+
+ <div id="particles-js"></div>
 <div class="titulo">
    <h1>CURRÍCULUM VITAE</h1> 
 </div>  
-<img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Foto carnet de Alex Ramos"
+<img id=fotoCarnet src="https://randomuser.me/api/portraits/men/97.jpg" alt="Foto carnet de Alex Ramos"
     height="150px" width="150px"/>
 <!--<h2>Alex Ramos</h2>-->
 <div class="card">
@@ -72,16 +73,33 @@
         </div>
 </section>
 
+<section id="portfolio">
+    <h3 id="portfolio__titulo">PORTFOLIO</h3>
+        <img src="portfolio1.webp" alt="Portada proyecto 1" 
+        width="100%">
+   
+        <img src="portfolio2.png" alt="Captura de código de un proyecto" 
+        width="100%">
+  
+        <img src="portfolio3.png" alt="HTML, CSS y JS"
+        width="100%">
+  
+        <img src="portfolio4.webp" alt="Otra captura de otro codigo de otro proyecto" 
+    width="100%">
+   
+</section>
+
 <p id="formulario">Si quiere ser contactade para proponer una oferta laboral, por favor complete el siguiente formulario, y me estaré comunicando a la brevedad.</p>
+
 <form id="miformulario" action="" onsubmit="return enviar();" >
     <label>Nombre</label>
-    <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
     <label>Apellido</label>
-    <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
     <label>E-mail</label>
-    <input type="text" name="email" placeholder="Ingrese su e-mail" required/>
+        <input type="text" name="email" placeholder="Ingrese su e-mail" required/>
     <label>Teléfono</label>
-    <input type="tel" name="telefono" placeholder="Ingrese su teléfono" required/>
+        <input type="tel" name="telefono" placeholder="Ingrese su teléfono" required/>
     <!--<input type="submit" id="boton" value="Enviar"> -->
     <button>
         <div class="svg-wrapper-1">
@@ -98,6 +116,7 @@
 
 <footer>Creado por Eleonora Martina Omentari Ongaro</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="js/js.js"></script> 
 </body>
 </html>

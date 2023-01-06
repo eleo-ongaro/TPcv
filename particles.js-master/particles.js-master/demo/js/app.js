@@ -1,20 +1,29 @@
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
 
-window.addEventListener('beforeprint', (event) => {
-    console.log('Están por imprimir el CV');
-  })
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
 
-particlesJS (
+/* Otherwise just put the config content (json): */
+
+particlesJS('particles-js',
+  
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 80,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#1d6095"
+        "value": "#ffffff"
       },
       "shape": {
         "type": "circle",
@@ -42,7 +51,7 @@ particlesJS (
         }
       },
       "size": {
-        "value": 4.008530152163807,
+        "value": 5,
         "random": true,
         "anim": {
           "enable": false,
@@ -54,7 +63,7 @@ particlesJS (
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#1d6095",
+        "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
       },
@@ -64,8 +73,7 @@ particlesJS (
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "bounce",
-        "bounce": false,
+        "out_mode": "out",
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -78,10 +86,10 @@ particlesJS (
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
@@ -101,8 +109,7 @@ particlesJS (
           "speed": 3
         },
         "repulse": {
-          "distance": 200,
-          "duration": 0.4
+          "distance": 200
         },
         "push": {
           "particles_nb": 4
@@ -112,7 +119,15 @@ particlesJS (
         }
       }
     },
-    "retina_detect": true
+    "retina_detect": true,
+    "config_demo": {
+      "hide_card": false,
+      "background_color": "#b61924",
+      "background_image": "",
+      "background_position": "50% 50%",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    }
   }
-)
 
+);
